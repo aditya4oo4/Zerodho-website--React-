@@ -1,16 +1,19 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg  sticky-top border-bottom navbar-light bg-light">
-      <a className="navbar-brand" href="#"></a>
+     
       <div className="container">
+        <Link className="navbar-brand" to="/">
         <img
           src="Media/images/logo.svg"
-          style={{ width: "14%" }} 
+          style={{ width: "25%" }} 
           alt=""
           className=" logoimg " 
         />
+         </Link>
         <button
           className="navbar-toggler"
           type="button"
@@ -27,29 +30,29 @@ function Navbar() {
           
             <ul className="navbar-nav ms-auto " style={{ marginRight: "3%" }}>
               <li className="nav-item active">
-                <a className="nav-link" href="#">
+                <Link className="nav-link" to="/signup">
                   Signup <span className="sr-only">(current)</span>
-                </a>
+                </Link>
               </li>
               <li className="nav-item ">
-                <a className="nav-link" href="#">
+                <Link className="nav-link" to="/about">
                   About
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <Link className="nav-link" to="pricing">
                   Pricing
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <Link className="nav-link" to="products">
                   Products
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <Link className="nav-link" to="support">
                   Support
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#">

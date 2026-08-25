@@ -10,7 +10,7 @@ function Footer() {
         overflowX: "hidden",
       }}
     >
-      <div className="row p-4 ms-5" >
+      <div className="row p-4 ms-5 mt-0 pt-0 " >
         {/* Column 1 */}
         <div className="col ">
           <img
