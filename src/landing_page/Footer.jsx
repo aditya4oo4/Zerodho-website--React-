@@ -8,6 +8,7 @@ function Footer() {
         width: "100%",
         maxWidth: "100%",
         overflowX: "hidden",
+        marginLeft:"12px"
       }}
     >
       <div className="row p-4 ms-5 mt-0 pt-0 " >
@@ -217,8 +218,8 @@ function Footer() {
             </a>
           </p>
         </div>
-        <div className="mt-5 text-muted" style={{ fontSize: "14px" }}>
-          <p>
+        <div className="mt-5 fs-8 fw-normal text-muted" style={{ fontSize: "12px" ,lineHeight:"2" }}>
+          <p className="">
             Zerodha Broking Ltd.: Member of NSE​ &​ BSE – SEBI Registration no.:
             INZ000031633 CDSL: Depository services through Zerodha Securities
             Pvt. Ltd. – SEBI Registration no.: IN-DP-100-2015 Commodity Trading

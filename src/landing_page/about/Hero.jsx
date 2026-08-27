@@ -11,7 +11,7 @@ function Hero() {
           We pioneered the discount broking model in India. <br /> Now, we are
           breaking ground with our technology.
         </h2>
-        <hr className="mt-5 mb-5" />
+        <hr className="mt-5 mb-5 text-muted" />
         <div className="col mt-5">
           <ul className="">
             We kick-started operations on the 15th of August, 2010 with the goal
@@ -36,7 +36,7 @@ function Hero() {
             community initiatives to empower retail traders and investors.
           </ul>
           <ul>
-            Rainmatter, our fintech fund and incubator, has invested in several
+            <a href="" style={{textDecoration:"none"}}>Rainmatter</a>, our fintech fund and incubator, has invested in several
             fintech startups with the goal of growing the Indian capital
             markets.
           </ul>

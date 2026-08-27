@@ -40,23 +40,24 @@ function Navbar() {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="pricing">
+                <Link className="nav-link" to="/pricing">
                   Pricing
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="products">
-                  Products
+                <Link className="nav-link" to="/product">
+                  Product
                 </Link>
+                
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="support">
+                <Link className="nav-link" to="/support">
                   Support
                 </Link>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#">
-                  <i class="fa fa-bars" aria-hidden="true"></i>
+                  <i className="fa fa-bars" aria-hidden="true"></i>
                 </a>
               </li>
             </ul>

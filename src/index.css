@@ -9,6 +9,14 @@
     
 }
 
-.abouthero{
-    
+.universe-logo {
+  width: 180px;
+  height: 60px;
+  object-fit: contain;
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
+}
+
+.universe-logo:hover {
+  opacity: 1;
 }
