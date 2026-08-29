@@ -8,7 +8,6 @@ function Footer() {
         width: "100%",
         maxWidth: "100%",
         overflowX: "hidden",
-        marginLeft:"12px"
       }}
     >
       <div className="row p-4 ms-5 mt-0 pt-0 " >

@@ -1,10 +1,42 @@
 import React from "react";
 
-function Hero(){
-    return(
-        <>
-            <h1>Hero Section <i className="fa fa-eye"></i></h1>
-        </>
-    );
+function Hero() {
+  return (
+    <section className="container-fluid" id="supportHero">
+      <div className="p-5 " id="supportWrapper">
+        <h4 className="fw-normal">Support Portal</h4>
+        <a href="">Track Tickets</a>
+      </div>
+      <div className="row p-5 m-3">
+        <div className="col-5 p-6 ms-5">
+          <h1 className="fs-3 mb-5 ms-5">
+            Search for an answer or browse help topics to create a ticket
+          </h1>
+          <input placeholder="Eg. how do I activate F&O"  className="mb-5 ms-5"/>
+          <br />
+        <div className="ms-5">
+
+          <a href="">Track account opening</a>
+          <a href="">Track segment activation</a>
+          <a href="">Intraday margins</a>
+          <a href="">Kite user manual</a>
+          </div>
+        </div>
+        
+        <div className="col-5 p-3 mb-5 " style={{marginLeft:"150px"}}>
+          <h1 className="fs-2 ms-5 fw-normal">Featured</h1>
+          <ol className="mt-5 ms-5">
+            <li>
+              <a href="">Current Takeovers and Delisting - January 2024</a>
+            </li>
+            <li>
+              <a href="">Latest Intraday leverages - MIS & CO</a>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </section>
+  );
 }
+
 export default Hero;
