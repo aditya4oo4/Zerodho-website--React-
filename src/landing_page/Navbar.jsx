@@ -29,11 +29,7 @@ function Navbar() {
         <div className="collapse navbar-collapse" id="navbarSupportedContent ">
           
             <ul className="navbar-nav ms-auto " style={{ marginRight: "3%" }}>
-              <li className="nav-item active">
-                <Link className="nav-link" to="/signup">
-                  Signup <span className="sr-only">(current)</span>
-                </Link>
-              </li>
+            
               <li className="nav-item ">
                 <Link className="nav-link" to="/about">
                   About
