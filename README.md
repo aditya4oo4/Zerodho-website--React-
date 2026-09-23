@@ -2,9 +2,6 @@
 
 A frontend-only clone inspired by Zerodha, built using React and Vite. This project recreates the user interface of a stock trading platform with multiple pages, reusable components, and client-side routing. The focus of this project is frontend development, component reusability, routing, and responsive layouts for desktop and tablet devices.
 
-## Live Demo
-
-[Live Demo](YOUR_LIVE_DEMO_LINK)
 
 ## Screenshots
 
