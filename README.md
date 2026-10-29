@@ -22,7 +22,6 @@ A frontend-only clone inspired by Zerodha, built using React and Vite. This proj
 * Clean and organized project structure
 * Responsive layout for desktop and tablet screens
 * Landing page with product highlights
-* Signup page interface
 * About page
 * Products page
 * Pricing page
